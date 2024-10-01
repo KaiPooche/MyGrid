@@ -14,7 +14,7 @@ public class NewTest {
   public void testLogin(String username,String Password,String browser) throws MalformedURLException {
 		
 	  System.out.println(browser);
-	  System.out.println("Git Change.");
+	  System.out.println("Git Change try.");
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
 		cap.setBrowserName("chrome");
 		cap.setPlatform(Platform.ANY);
